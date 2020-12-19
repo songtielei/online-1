@@ -78,6 +78,9 @@ A programmatic string identifier of the user.
 ### UserFriendlyName
 A string representing the name of the user for display in the UI.
 
+While nominally an optional field, it is used to identify the author of changes in documents. When missing, "Unknown" will be used instead.
+
+Strongly recommended to set it to a valid value.
 
 CheckFileInfo extended response properties
 ------------------------------------------
